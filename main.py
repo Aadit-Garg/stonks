@@ -106,9 +106,9 @@ while True:
             print(tabulate(main_lis[int(a):int(b)+1], headers=main_lis[0], tablefmt="fancy_grid"))
             print(Fore.WHITE)
     
-        if inp.lower() == "r":
+        elif inp.lower() == "r":
             main_lis,variables = main_work()
-        if inp == "c":
+        elif inp == "c":
             print(".> Select Coulomns using their Coulumn numbers")
             print(".> Press enter to confirm selection")
             print(variables)
